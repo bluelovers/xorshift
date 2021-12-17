@@ -74,5 +74,8 @@
     "binary-view": "^0.2.0",
     "tap": "15.1.x"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "yarn@^1.22.11"
 }
