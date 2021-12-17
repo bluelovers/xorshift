@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/AndreasMadsen/xorshift/compare/@bluelovers/xorshift@1.2.0...@bluelovers/xorshift@1.2.1) (2021-12-17)
+
+
+### ✨　Features
+
+* allow update seed ([66f51bb](https://github.com/AndreasMadsen/xorshift/commit/66f51bb6c1e8823b0791c2dafcb55068cba06a59))
+
+
+
+
+
 # 1.2.0 (2021-12-17)
 
 
