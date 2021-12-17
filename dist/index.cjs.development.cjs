@@ -19,6 +19,10 @@ const XorShift = function XorShift(seed) {
     return new XorShift(seed);
   }
 
+  this.seed(seed);
+};
+
+XorShift.prototype.seed = function (seed) {
   assertSeed(seed);
   [this._state0U, this._state0L, this._state1U, this._state1L] = handleSeed(seed);
 };

@@ -19,18 +19,19 @@ export interface XorShift {
 	_state0L: number;
 	_state1U: number;
 	_state1L: number;
+	seed(seed: ISeedLooser): void;
 	/**
-   * Returns a 64bit random number as a 2x32bit array
-   * @return {array}
-   */
+	 * Returns a 64bit random number as a 2x32bit array
+	 * @return {array}
+	 */
 	randomint(): [
 		number,
 		number
 	];
 	/**
-   * Returns a random number normalized [0, 1), just like Math.random()
-   * @return {number}
-   */
+	 * Returns a random number normalized [0, 1), just like Math.random()
+	 * @return {number}
+	 */
 	random(): number;
 }
 export declare let xorshift: XorShift & {
