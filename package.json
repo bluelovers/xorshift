@@ -1,5 +1,5 @@
 {
-  "name": "xorshift",
+  "name": "@bluelovers/xorshift",
   "version": "1.2.0",
   "description": "Random number generator using xorshift128+",
   "keywords": [
